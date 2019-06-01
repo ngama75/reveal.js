@@ -15,6 +15,12 @@
     "type": "git",
     "url": "git://github.com/hakimel/reveal.js.git"
   },
+  "dependencies": {
+    "headjs": "~1.0.3",
+    "jQuery": "^3.1.1",
+    "MathJax": "^2.7.0",
+    "jquery-ui": "^1.12.1"
+  },
   "ignore": [
     "**/.*",
     "node_modules",
