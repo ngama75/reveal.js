@@ -1,0 +1,150 @@
+@import url(white.css);
+
+/* slides full screen */
+.reveal.slide .slides > section, .reveal.slide .slides > section > section,
+.reveal.none .slides > section, .reveal.none .slides > section > section
+{
+  min-height: 95% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  position: absolute !important;
+  top: 0 !important;
+  align-items: center !important;
+  border: thin blue inset;
+  border-radius: 10px;
+  background-color: #fff;
+  /* background-color: rgba(255,255,255,0.87); */
+  padding-top: 45px;
+  padding-bottom: 2px;
+}
+
+/* slide title */
+section > h1, section > h2 {
+  position: absolute !important;
+  top: 0 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  left: 0 !important;
+  right: 0 !important;
+  text-align: center !important;
+  color: #336 !important;
+  font-family: "Source Sans Pro", Helvetica, sans-serif !important;
+  text-transform: none !important;
+}
+.print-pdf .reveal.slide .slides > section, .print-pdf .reveal.slide .slides > section > section {
+  min-height: 770px !important;
+  position: relative !important;
+}
+
+section > p {
+    width: 100%;
+    margin: 0px !important;
+}
+
+section > p > img, section > p > object, section > object  {
+    width: 100%;
+    border: none !important;
+    box-shadow: none !important;
+    background-color: #fff;
+}
+
+anim {
+    /* border: thin green outset; */ 
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    background-color: #fff;
+}
+
+anim>img,anim>video,anim>object {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    box-shadow: none !important;
+    max-width: 100% !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    /* border: thin red outset !important; */
+}
+
+/* blocs beamer */
+.reveal blockquote {
+    border: thin black outset;
+    box-sizing: border-box;
+    background-color: #f8f8ff;
+    width: 900px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+    font-style: normal;
+    font-size: 22pt;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.75);
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+.reveal blockquote>pre {
+    margin: -10px auto 0px auto;
+}
+.reveal blockquote>h2:first-child {
+    background-color: #006688;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    width: 900px;
+    font-size: 24pt;
+    font-style: normal;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+    text-transform: none;
+}
+.reveal blockquote.green {
+    background-color: #f8fff8;
+}
+.reveal blockquote.green>h2:first-child {
+    background-color: #008844;
+}
+.reveal blockquote.red {
+    background-color: #fff8f8;
+}
+.reveal blockquote.red>h2:first-child {
+    background-color: #880000;
+}
+.reveal blockquote.purple {
+    background-color: #fff8fa;
+}
+.reveal blockquote.purple>h2:first-child {
+    background-color: #880066;
+}
+.reveal blockquote.gray {
+    background-color: #fdfdfd;
+}
+.reveal blockquote.gray>h2:first-child {
+    background-color: #888888;
+}
+.reveal blockquote>p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+section.sectiontitle > h1, section.sectiontitle > h2 {
+  position: static !important;
+  top: 0 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  left: 0 !important;
+  right: 0 !important;
+  text-align: center !important;
+  border: thin #366 outset;
+  border-radius: 30px;
+  padding: 40px;
+  background: #eef;
+  box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.75);
+}
+
